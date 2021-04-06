@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		InPut JSON:<textarea style="width: 100%;height: 200px;" id="input"></textarea>
+		OutPut JSON:<textarea style="width: 100%;height: 200px;" id="output"></textarea>
+	</body>
+	<script>
+		var input = document.getElementById("input");
+		input.addEventListener('input', function() {
+			var len = generateOutPut(this); //   调用函数 
+		});
+
+		input.addEventListener('propertychange', function() { //兼容IE
+			var len = generateOutPut(this); //   调用函数 
+		});
+
+		function generateOutPut() {
+			var data = document.getElementById("input").value;
+			if (data) {
+				data = JSON.parse(data);
+				data = data.data;
+			}
+
+			getMenuAll(data);
+			document.getElementById("output").value = result;
+		}
+
+		var menuArr = [],
+			result = "";
+		function getMenuAll(arr) {
+			arr.filter(item => {
+				if (item && item.label) {
+					var tt = "";
+					for (var j = 1; j < item.level; j++) {
+						tt += "\t"
+					}
+					result += tt + item.label + "\n"
+				}
+				if (item.children && item.children.length) {
+					getMenuAll(item.children)
+				}
+			})
+		}
+	</script>
+</html>
