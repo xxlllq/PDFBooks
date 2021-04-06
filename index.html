@@ -31,6 +31,7 @@
 
 		var menuArr = [],
 			result = "";
+
 		function getMenuAll(arr) {
 			arr.filter(item => {
 				if (item && item.label) {
@@ -38,7 +39,7 @@
 					for (var j = 1; j < item.level; j++) {
 						tt += "\t"
 					}
-					result += tt + item.label + "\n"
+					result += tt + item.label + "\t" + item.pnum + "\n"
 				}
 				if (item.children && item.children.length) {
 					getMenuAll(item.children)
