@@ -27,13 +27,14 @@
   <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/pdf合并.png" width=500 />
     </kbd>
    </div>
+
 # PDF添加书签
 1、在文泉书籍预览界面，F12后，在NetWork中搜索【目录】，然后复制右侧JSON，打开本项目中的index.html页面。复制进【Input JSON】后，待转换完成。
 <div align="center">
   <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/JSON转换.png" width=500 />
     </kbd>
    </div>
-2、从[网盘链接，提取码：6666](https://pan.baidu.com/s/1Pr8C2SY4FtLjjv-wqxIlpA)下载工具后，打开本项目中的index.html页面。复制进【Input JSON】后，待转换完成。
+
 2、从[网盘链接，提取码：6666](https://pan.baidu.com/s/1Pr8C2SY4FtLjjv-wqxIlpA)下载工具后，操作步骤可参考[链接](https://www.jianshu.com/p/b7d4bf86f5ff)，其中的目录使用步骤1中的【OutPut JSON】即可。
 3、最终PDF如下。
 <div align="center">
