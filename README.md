@@ -5,7 +5,7 @@
 ## 项目介绍
 本项目介绍如何将[文泉书局](https://wqbook.wqxuetang.com/)中的部分书籍导出为PDF文件，包含了源文件获取、源文件合并、源文件添加书签。本项目通过如何在文泉书局中获取[《系统架构设计师2013至2018年试题分析与解答》](https://wqbook.wqxuetang.com/book/3211900)进行使用步骤的说明（本人已在文泉书局中购买该电子书，**请广大读者尊重书籍版权**）。
 <div align="center">
-  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/购买凭证.png" width=500 />
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/购买凭证.png" width=600 />
     </kbd>
    </div>
 
