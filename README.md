@@ -5,7 +5,7 @@
 ## 项目介绍
 本项目介绍如何将[文泉书局](https://wqbook.wqxuetang.com/)中的部分书籍导出为PDF文件，包含了源文件获取、源文件合并、源文件添加书签。本项目通过如何在文泉书局中获取[《系统架构设计师2013至2018年试题分析与解答》](https://wqbook.wqxuetang.com/book/3211900)进行使用步骤的说明（本人已在文泉书局中购买该电子书，**请广大读者尊重书籍版权**）。
 <div align="center">
-  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/购买凭证.png" width=400 />
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/购买凭证.png" width=500 />
     </kbd>
    </div>
 
@@ -13,7 +13,7 @@
 ## 查询书籍
 通过网址[文泉书局](https://wqbook.wqxuetang.com/)，搜索相关书籍[《系统架构设计师2013至2018年试题分析与解答》](https://wqbook.wqxuetang.com/book/3211900)。
 <div align="center">
-  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/search.png" width=400 />
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/search.png" width=500 />
     </kbd>
    </div>
 
@@ -24,13 +24,13 @@
 # 源文件PDF合并
 得到PDF源文件后，可通过WPS中的PDF合并工具进行合并。其他合并工具：Adobe acrobat 等。
 <div align="center">
-  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/pdf合并.png" width=400 />
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/pdf合并.png" width=500 />
     </kbd>
    </div>
 # PDF添加书签
 1、在文泉书籍预览界面，F12后，在NetWork中搜索【目录】，然后复制右侧JSON，打开本项目中的index.html页面。复制进【Input JSON】后，待转换完成。
 <div align="center">
-  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/JSON转换.png" width=400 />
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/JSON转换.png" width=500 />
     </kbd>
    </div>
 2、从[网盘链接，提取码：6666](https://pan.baidu.com/s/1Pr8C2SY4FtLjjv-wqxIlpA)下载工具后，操作步骤可参考[链接](https://www.jianshu.com/p/b7d4bf86f5ff)，其中的目录使用步骤1中的【OutPut JSON】即可。
