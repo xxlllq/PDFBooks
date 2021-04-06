@@ -31,6 +31,11 @@
 # PDF添加书签
 1、在文泉书籍预览界面，F12后，在NetWork中搜索【目录】，然后复制右侧JSON，打开本项目中的index.html页面。复制进【Input JSON】后，待转换完成。
 <div align="center">
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/目录.png" width=500 />
+    </kbd>
+   </div>
+
+<div align="center">
   <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/JSON转换.png" width=500 />
     </kbd>
    </div>
