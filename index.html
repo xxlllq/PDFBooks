@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -19,14 +19,17 @@
 		});
 
 		function generateOutPut() {
+			result = "";
 			var data = document.getElementById("input").value;
-			if (data) {
-				data = JSON.parse(data);
-				data = data.data;
-			}
+			try {
+				if (data) {
+					data = JSON.parse(data);
+					data = data.data;
+				}
 
-			getMenuAll(data);
-			document.getElementById("output").value = result;
+				getMenuAll(data);
+				document.getElementById("output").value = result;
+			} catch (e) {}
 		}
 
 		var menuArr = [],
