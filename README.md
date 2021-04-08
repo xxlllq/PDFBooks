@@ -97,7 +97,7 @@ TextPage=
     </kbd>
    </div>
 
-第二个为【编辑书签（树形）】按钮，可对书签最终的树形结构进行编辑，如果不需要编辑可不使用该功能。
+第三个为【编辑书签（树形）】按钮，可对书签最终的树形结构进行编辑，如果不需要编辑可不使用该功能。
 <div align="center">
   <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/step6.png" width=500 />
     </kbd>
