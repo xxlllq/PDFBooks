@@ -70,23 +70,26 @@
     </kbd>
    </div>
 
+```javascript
 [Images]
 
-[Font]
-Language=GBK
-FontSize=7
+[Font] 
+Language=GBK 
+FontSize=7 
 Margin=0.5
 
-[Bkmk]
-File=FreePic2Pdf_bkmk.txt
-AddAsText=0
-ShowBkmk=1
-ShowAll=1
+[Bkmk] 
+File=FreePic2Pdf_bkmk.txt 
+AddAsText=0 
+ShowBkmk=1 
+ShowAll=1 
 BasePage=1
 
-[Main]
-ContentsPage=
+[Main] 
+ContentsPage= 
 TextPage=
+
+```
 
 第二个为【编辑书签（文本）】按钮，点击后，输入上面步骤1中的【OutPut JSON】即可，然后Ctrl+S保存。
 <div align="center">
