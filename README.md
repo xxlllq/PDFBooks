@@ -21,13 +21,13 @@
 
 1、源文件PDF下载可参考项目[文泉书籍PDF下载](https://github.com/Kevin0z0/wenquan-pdf-download)，此项目介绍了如何将书籍进行PDF下载，实现原理：通过请求每一页PDF的图片，然后通过pdf.js转换为PDF文件。打开具体的书籍后，出现下面红框样式则表明脚本安装成功。
 <div align="center">
-  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/m.png" width=500 />
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/m.png" width=800 />
     </kbd>
    </div>
 
 2、使用时候请注意，如果运行工具后，等待很久没有自动翻页，表明工具未开始下载，请点击你想开始下载的页面启动下载即可（比如从第一页下载，就点击页面中的第一页PDF图片即可）。
 
-3、首次使用的时候，下载第二个PDF文件时候，部分浏览器会提示你是否允许下载多个文件，请点击是。如果出现没提示，但是发现没有任何下载进度时，请点击浏览器右上角的提示。
+3、首次使用的时候，下载第二个PDF文件时候，部分浏览器会提示你是否允许下载多个文件，请点击是。如果出现没提示，但是发现没有任何下载进度时，请点击提示中的允许。
 <div align="center">
   <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/download.png" width=300 />
     </kbd>
