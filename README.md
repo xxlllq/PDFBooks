@@ -64,7 +64,7 @@
     </kbd>
    </div>
 
-第一个为【编辑接口文件】按钮，如果编辑界面中空白，输入下面代码即可：
+第一个为【编辑接口文件】按钮，如果编辑界面中空白，可复制下面代码输入保存（Ctrl+S）即可：
 <div align="center">
   <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/step4.png" width=500 />
     </kbd>
