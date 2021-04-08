@@ -44,7 +44,68 @@
     </kbd>
    </div>
 
-2、从[网盘链接，提取码：6666](https://pan.baidu.com/s/1Pr8C2SY4FtLjjv-wqxIlpA)下载工具后，操作步骤可参考[链接](https://www.jianshu.com/p/b7d4bf86f5ff)，其中的目录使用步骤1中的【OutPut JSON】即可。
+2、从[网盘链接，提取码：6666](https://pan.baidu.com/s/1Pr8C2SY4FtLjjv-wqxIlpA)下载工具后，操作步骤可参考[链接](https://www.jianshu.com/p/b7d4bf86f5ff)，其中的目录使用步骤1中的【OutPut JSON】即可。具体步骤如下：
+
+* 点击从网盘链接下载的工具FreePic2Pdf，然后点击更改PDF。
+<div align="center">
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/step1.png" width=500 />
+    </kbd>
+   </div>
+
+* 选择【往PDF挂书签】标签页，然后点击下图中的标号1，选择需要添加书签目录的PDF文件后。点击下图中的标号2，加载接口存放的文件夹（跟步骤1同文件夹）。
+<div align="center">
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/step2.png" width=500 />
+    </kbd>
+   </div>
+
+* 然后依次点击下图箭头所示按钮。
+<div align="center">
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/step3.png" width=500 />
+    </kbd>
+   </div>
+
+第一个为【编辑接口文件】按钮，如果编辑界面中空白，输入下面代码即可：
+<div align="center">
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/step4.png" width=500 />
+    </kbd>
+   </div>
+
+[Images]
+
+[Font]
+Language=GBK
+FontSize=7
+Margin=0.5
+
+[Bkmk]
+File=FreePic2Pdf_bkmk.txt
+AddAsText=0
+ShowBkmk=1
+ShowAll=1
+BasePage=1
+
+[Main]
+ContentsPage=
+TextPage=
+
+第二个为【编辑书签（文本）】按钮，点击后，输入上面步骤1中的【OutPut JSON】即可，然后Ctrl+S保存。
+<div align="center">
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/step5.png" width=500 />
+    </kbd>
+   </div>
+
+第二个为【编辑书签（树形）】按钮，可对书签最终的树形结构进行编辑，如果不需要编辑可不使用该功能。
+<div align="center">
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/step6.png" width=500 />
+    </kbd>
+   </div>
+
+* 最后点击开始即可完成添加书签目录。
+<div align="center">
+  <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/step7.png" width=500 />
+    </kbd>
+   </div>
+
 
 3、最终PDF如下。
 <div align="center">
