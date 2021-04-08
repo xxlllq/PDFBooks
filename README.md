@@ -44,7 +44,7 @@
     </kbd>
    </div>
 
-2、从[网盘链接，提取码：6666](https://pan.baidu.com/s/1Pr8C2SY4FtLjjv-wqxIlpA)下载工具后，操作步骤可参考[链接](https://www.jianshu.com/p/b7d4bf86f5ff)，其中的目录使用步骤1中的【OutPut JSON】即可。具体步骤如下：
+2、从[网盘链接，提取码：6666](https://pan.baidu.com/s/1Pr8C2SY4FtLjjv-wqxIlpA)下载文件，请将下载后的两个工具放在同一文件夹下。操作步骤可参考[链接](https://www.jianshu.com/p/b7d4bf86f5ff)，其中的目录使用步骤1中的【OutPut JSON】即可。具体步骤如下：
 
 * 点击从网盘链接下载的工具FreePic2Pdf，然后点击更改PDF。
 <div align="center">
