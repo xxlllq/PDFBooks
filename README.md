@@ -19,7 +19,11 @@
 
 # 源文件PDF下载
 
-1、源文件PDF下载可参考项目[文泉书籍PDF下载](https://github.com/Kevin0z0/wenquan-pdf-download)，此项目介绍了如何将书籍进行PDF下载，实现原理：通过请求每一页PDF的图片，然后通过pdf.js转换为PDF文件。打开具体的书籍后，出现下面红框样式则表明脚本安装成功。
+1、源文件PDF下载可参考项目[文泉书籍PDF下载](https://github.com/Kevin0z0/wenquan-pdf-download)，此项目介绍了如何将书籍进行PDF下载，实现原理：通过请求每一页PDF的图片，然后通过pdf.js转换为PDF文件。打开具体的书籍后，出现下面红框样式则表明脚本安装成功。20210727脚本代码调整：
+```javascript
+将原来的：document.documentElement.scrollTop = imgBox[pageList[num]].offsetTop
+  修改为：document.getElementById("scroll").scrollTop = imgBox[pageList[num]].offsetTop
+```
 <div align="center">
   <kbd><img src="https://raw.githubusercontent.com/xxlllq/PDFBooks/main/image/m.png" width=800 />
     </kbd>
